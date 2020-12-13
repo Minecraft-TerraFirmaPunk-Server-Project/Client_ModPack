@@ -1,0 +1,2 @@
+count=3-7
+contents=wizardry:spell_book;0;1-1;20,wizardry:magic_wand;0;1-1;3,wizardry:wizard_hat;0;1-1;6,wizardry:scroll;0;1-1;10,wizardry:condenser_upgrade;0;1-1;2,wizardry:magic_crystal;0;1-4;5,wizardry:arcane_tome;1;1-1;3,wizardry:arcane_tome;2;1-1;2,wizardry:arcane_tome;3;1-1;1,wizardry:armour_upgrade;0;1-1;1,wizardry:identification_scroll;0;1-1;3

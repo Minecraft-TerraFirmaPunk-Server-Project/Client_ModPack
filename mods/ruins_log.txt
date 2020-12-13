@@ -1,0 +1,11 @@
+
+Loading excluded list from: C:\Users\metay\Twitch\Minecraft\Instances\Realistic Survival v2.0\saves\Test new mod add\DIM7
+No exclusions found for this world.
+
+Loading options from: C:\Users\metay\Twitch\Minecraft\Instances\Realistic Survival v2.0\saves\Test new mod add\DIM7
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 25.0
+templateInstancesMinDistance = 512.0
+anyRuinsMinDistance = 158.0
+Ruins mod loaded successfully for world C:\Users\metay\Twitch\Minecraft\Instances\Realistic Survival v2.0\saves\Test new mod add\DIM7, template files: 105
+ 105

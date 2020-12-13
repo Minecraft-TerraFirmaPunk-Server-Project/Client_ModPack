@@ -1,0 +1,790 @@
+{
+  "baseModLoader": {
+    "id": 2585,
+    "gameVersionId": 5767,
+    "minecraftGameVersionId": 8,
+    "forgeVersion": "10.13.4.1566",
+    "name": "forge-10.13.4.1566",
+    "type": 1,
+    "downloadUrl": "https://modloaders.cursecdn.com/647622546/maven/net/minecraftforge/forge/1.7.10-10.13.4.1566-1.7.10/forge-1.7.10-10.13.4.1566-1.7.10.jar",
+    "filename": "forge-1.7.10-10.13.4.1566-1.7.10.jar",
+    "installMethod": 1,
+    "latest": false,
+    "recommended": false,
+    "approved": false,
+    "dateModified": "2017-01-01T00:00:00Z",
+    "mavenVersionString": "net.minecraftforge:forge:1.7.10-10.13.4.1566-1.7.10",
+    "versionJson": "{\r\n  \"id\": \"forge-10.13.4.1566\",\r\n  \"time\": \"2015-11-15T17:30:16-0500\",\r\n  \"releaseTime\": \"1960-01-01T00:00:00-0700\",\r\n  \"type\": \"release\",\r\n  \"minecraftArguments\": \"--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass cpw.mods.fml.common.launcher.FMLTweaker\",\r\n  \"minimumLauncherVersion\": 14,\r\n  \"assets\": \"1.7.10\",\r\n  \"inheritsFrom\": \"1.7.10\",\r\n  \"jar\": \"forge-10.13.4.1566\",\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.7.10-10.13.4.1566-1.7.10\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\"\r\n    },\r\n    {\r\n      \"name\": \"net.minecraft:launchwrapper:1.12\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-all:5.0.3\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe.akka:akka-actor_2.11:2.3.3\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe:config:1.2.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-actors-migration_2.11:1.1.0\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-compiler:2.11.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-library:2.11.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-parser-combinators_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-reflect:2.11.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-swing_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-xml_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"lzma:lzma:0.0.1\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:4.5\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:17.0\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.apache.commons:commons-lang3:3.3.2\",\r\n      \"serverreq\": true\r\n    }\r\n  ],\r\n  \"mainClass\": \"net.minecraft.launchwrapper.Launch\"\r\n}",
+    "librariesInstallLocation": "{0}\\libraries\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1566-1.7.10",
+    "minecraftVersion": "1.7.10",
+    "modLoaderGameVersionId": 5767,
+    "modLoaderGameVersionTypeId": 3,
+    "modLoaderGameVersionStatus": 3,
+    "modLoaderGameVersionTypeStatus": 1,
+    "mcGameVersionId": 4449,
+    "mcGameVersionTypeId": 5,
+    "mcGameVersionStatus": 1,
+    "mcGameVersionTypeStatus": 1
+  },
+  "isUnlocked": true,
+  "javaArgsOverride": null,
+  "javaDirOverride": null,
+  "lastPlayed": "2020-12-12T12:28:09.4576816Z",
+  "manifest": null,
+  "fileDate": "0001-01-01T00:00:00",
+  "installedModpack": null,
+  "projectID": 0,
+  "fileID": 0,
+  "customAuthor": null,
+  "modpackOverrides": null,
+  "isMemoryOverride": true,
+  "allocatedMemory": 7919,
+  "guid": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+  "gameTypeID": 432,
+  "installPath": "C:\\Users\\metay\\Twitch\\Minecraft\\Instances\\Realistic Survival v2.0\\",
+  "name": "Realistic Survival v2.0",
+  "cachedScans": [],
+  "isValid": true,
+  "lastPreviousMatchUpdate": "0001-01-01T00:00:00",
+  "isEnabled": true,
+  "isPinned": false,
+  "gameVersion": "1.7.10",
+  "preferenceAlternateFile": false,
+  "preferenceAutoInstallUpdates": false,
+  "preferenceQuickDeleteLibraries": true,
+  "preferenceDeleteSavedVariables": false,
+  "preferenceProcessFileCommands": true,
+  "preferenceReleaseType": 1,
+  "syncProfile": {
+    "PreferenceEnabled": false,
+    "PreferenceAutoSync": true,
+    "PreferenceAutoDelete": false,
+    "PreferenceBackupSavedVariables": false,
+    "GameInstanceGuid": "00000000-0000-0000-0000-000000000000",
+    "SyncProfileID": 0,
+    "SavedVariablesProfile": null,
+    "LastSyncDate": "0001-01-01T00:00:00"
+  },
+  "preferenceShowAddOnInfo": true,
+  "installDate": "2020-12-11T22:22:35.0772523Z",
+  "installedAddons": [
+    {
+      "addonID": 265642,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2501327,
+        "displayName": "Electroblob's Wizardry - 1.1.5 - MC 1.7.10.jar",
+        "fileName": "Electroblob's Wizardry - 1.1.5 - MC 1.7.10.jar",
+        "fileDate": "2017-11-18T21:48:03.177Z",
+        "fileLength": 2862993,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2501/327/Electroblob's Wizardry - 1.1.5 - MC 1.7.10.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "electroblob",
+            "fingerprint": 1487780700,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2208781030,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4084114316,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 744387872,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Electroblob's Wizardry - 1.1.5 - MC 1.7.10.jar"
+      },
+      "dateInstalled": "2020-12-12T12:25:49.1142934Z",
+      "dateUpdated": "2020-12-12T12:25:49.1299189Z",
+      "dateLastUpdateAttempted": "2020-12-12T12:25:49.1299189Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 225095,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2241913,
+        "displayName": "ThaumcraftNEIPlugin-1.7.10-1.7a",
+        "fileName": "thaumcraftneiplugin-1.7.10-1.7a.jar",
+        "fileDate": "2015-06-08T08:20:28.367Z",
+        "fileLength": 68794,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2241/913/thaumcraftneiplugin-1.7.10-1.7a.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "meta-inf",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3118471768,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 845638719,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3930811838,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1167612647,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "thaumcraftneiplugin-1.7.10-1.7a.jar"
+      },
+      "dateInstalled": "2020-12-11T22:24:42.4953816Z",
+      "dateUpdated": "2020-12-11T22:24:42.5073849Z",
+      "dateLastUpdateAttempted": "2020-12-11T22:24:42.5073849Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 79616,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2291464,
+        "displayName": "Decocraft 2.3.0",
+        "fileName": "Decocraft-2.3.0_1.7.10.jar",
+        "fileDate": "2016-04-01T19:26:13.343Z",
+        "fileLength": 10580921,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2291/464/Decocraft-2.3.0_1.7.10.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3801847017,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3554069724,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4014023374,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2225641705,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3674935776,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Decocraft-2.3.0_1.7.10.jar"
+      },
+      "dateInstalled": "2020-12-11T22:27:22.6742049Z",
+      "dateUpdated": "2020-12-11T22:27:22.6902897Z",
+      "dateLastUpdateAttempted": "2020-12-11T22:27:22.6902897Z",
+      "status": 3,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 271228,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2490934,
+        "displayName": "MusicCraft 2.9.9.3",
+        "fileName": "musiccraft-2.9.9.3.jar",
+        "fileDate": "2017-10-15T10:33:00.193Z",
+        "fileLength": 22549443,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2490/934/musiccraft-2.9.9.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "ktos94852",
+            "fingerprint": 3695616510,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1337370290,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 836358624,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1485616053,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "musiccraft-2.9.9.3.jar"
+      },
+      "dateInstalled": "2020-12-12T12:23:20.9624477Z",
+      "dateUpdated": "2020-12-12T12:23:21.008158Z",
+      "dateLastUpdateAttempted": "2020-12-12T12:23:21.008158Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 273771,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2540773,
+        "displayName": "[1.7.10] Horse Cart v0.1.0.0 (has issues)",
+        "fileName": "astikoor-1.7.10-1.0.0.jar",
+        "fileDate": "2018-03-13T16:52:57.373Z",
+        "fileLength": 53006,
+        "releaseType": 3,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2540/773/astikoor-1.7.10-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "astikoor",
+            "fingerprint": 2641986755,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1579291347,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4168489459,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3972243186,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "astikoor-1.7.10-1.0.0.jar"
+      },
+      "dateInstalled": "2020-12-11T22:25:07.8510468Z",
+      "dateUpdated": "2020-12-11T22:25:07.8640619Z",
+      "dateLastUpdateAttempted": "2020-12-11T22:25:07.8640619Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 229876,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2244002,
+        "displayName": "v1.0.1",
+        "fileName": "BetterFps-1.0.1.jar",
+        "fileDate": "2015-06-23T22:52:20.147Z",
+        "fileLength": 63223,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2244/2/BetterFps-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "me",
+            "fingerprint": 2927602598,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "meta-inf",
+            "fingerprint": 3082847532,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 11840384,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 986622931,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterFps-1.0.1.jar"
+      },
+      "dateInstalled": "2020-12-11T22:45:04.5842393Z",
+      "dateUpdated": "2020-12-11T22:45:04.6032555Z",
+      "dateLastUpdateAttempted": "2020-12-11T22:45:04.6032555Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 226406,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2264779,
+        "displayName": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+        "fileName": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+        "fileDate": "2015-10-31T15:48:03.707Z",
+        "fileLength": 115292,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2264/779/CustomMainMenu-MC1.7.10-1.9.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4216042901,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "lumien",
+            "fingerprint": 1588707612,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 298352340,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 12543486,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 413647567,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "CustomMainMenu-MC1.7.10-1.9.2.jar"
+      },
+      "dateInstalled": "2020-12-11T22:39:23.1768201Z",
+      "dateUpdated": "2020-12-11T22:39:23.1828158Z",
+      "dateLastUpdateAttempted": "2020-12-11T22:39:23.1828158Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 271050,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2520348,
+        "displayName": "DoggyTalents-1.7.10-1.14.2.317-universal.jar",
+        "fileName": "DoggyTalents-1.7.10-1.14.2.317-universal.jar",
+        "fileDate": "2018-01-14T19:50:12.543Z",
+        "fileLength": 625872,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2520/348/DoggyTalents-1.7.10-1.14.2.317-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "doggytalents",
+            "fingerprint": 2374442512,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 833433094,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1801371929,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1034264627,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "DoggyTalents-1.7.10-1.14.2.317-universal.jar"
+      },
+      "dateInstalled": "2020-12-11T22:25:31.28664Z",
+      "dateUpdated": "2020-12-11T22:25:31.2990563Z",
+      "dateLastUpdateAttempted": "2020-12-11T22:25:31.2990563Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 223628,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2227552,
+        "displayName": "Thaumcraft-1.7.10-4.2.3.5.jar",
+        "fileName": "Thaumcraft-1.7.10-4.2.3.5.jar",
+        "fileDate": "2015-02-17T06:48:06.303Z",
+        "fileLength": 12565807,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2227/552/Thaumcraft-1.7.10-4.2.3.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 227083,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "meta-inf",
+            "fingerprint": 1454561428,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "thaumcraft",
+            "fingerprint": 2562348263,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "truetyper",
+            "fingerprint": 1518391450,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "changelog.txt",
+            "fingerprint": 2499032282,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dependancies.info",
+            "fingerprint": 399598621,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3533172543,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1892918965,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "tclogo.png",
+            "fingerprint": 3998480883,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 466070802,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3309651986,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Thaumcraft-1.7.10-4.2.3.5.jar"
+      },
+      "dateInstalled": "2020-12-11T22:25:14.582648Z",
+      "dateUpdated": "2020-12-11T22:25:14.5976434Z",
+      "dateLastUpdateAttempted": "2020-12-11T22:25:14.5976434Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 221584,
+      "gameInstanceID": "45e02a17-0310-43dd-bf99-ba2773bcbffb",
+      "installedFile": {
+        "id": 2212871,
+        "displayName": "AdminCommandsToolbox-0.0.2a_1.7.10.jar",
+        "fileName": "AdminCommandsToolbox-0.0.2a_1.7.10.jar",
+        "fileDate": "2014-08-27T21:23:03.207Z",
+        "fileLength": 15539,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2212/871/AdminCommandsToolbox-0.0.2a_1.7.10.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [],
+        "packageFingerprint": 1863776583,
+        "gameVersion": [
+          "1.7.10"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2014-06-16T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "AdminCommandsToolbox-0.0.2a_1.7.10.jar"
+      },
+      "dateInstalled": "2020-12-12T12:22:14.3486899Z",
+      "dateUpdated": "2020-12-12T12:22:14.3646875Z",
+      "dateLastUpdateAttempted": "2020-12-12T12:22:14.3646875Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    }
+  ],
+  "isMigrated": false,
+  "preferenceUploadProfile": false
+}
